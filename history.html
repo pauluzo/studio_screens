@@ -1,0 +1,119 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome! Customize Bootstrap with Sass</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <!-- custom CSS should come after Bootstrap CSS -->
+    <link rel="stylesheet" href="./home_room.css">
+</head>
+
+<body>
+ 	<div class="container container_wrapper" >
+		<div class="row">
+			<div class="col-md-3 col_padding">
+				<div class="side_nav">
+					<div class="side_nav_header">
+						<img class="side_nav_logo" src="/images/studio-image.png" alt="studio-logo" />
+						<img class="side_nav_image" src="/images/profile_avi.png" alt="studio-logo" />
+					</div>
+					<div class="side_nav_body">
+						<div class="nav_option">
+							<img class="side_nav_icon" src="/images/shape1.png" alt="-icon-1" />
+							<span>Rooms</span>
+						</div>
+						<div class="nav_option">
+							<img class="side_nav_icon" src="/images/shape4.png" alt="-icon-1" />
+							<span>Subscription</span>
+						</div>
+						<div class="nav_option">
+							<img class="side_nav_icon" src="/images/shape5.png" alt="-icon-1" />
+							<span>Settings</span>
+						</div>
+						<div class="nav_option">
+							<img class="side_nav_icon" src="/images/shape3.png" alt="-icon-1" />
+							<span>All Recordings</span>
+						</div>
+						<div class="nav_option">
+							<img class="side_nav_icon" src="/images/shape2.png" alt="-icon-1" />
+							<span>Meeting History</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9 col_padding">
+				<div class="main_nav">
+					<h4>Meeting History</h4>
+					<div class="main_body">
+						<!--Insert the component for search filter here -->
+                        <div class="records_container row">
+                            <div class="col-md-4" style="padding: 0px 5px; margin-bottom : 10px;">
+                                <div class="records_card">
+                                    <div class="meeting_icon">
+                                        <img src="./images/meeting_icon.png" />
+                                    </div>
+                                    <div class="card_details">
+                                        <span class="span1">Test Meeting</span>
+                                        <span class="span2">August 01, 2022 | 8:00am</span>
+                                        <span class="span3">View Attendees</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" style="padding: 0px 5px; margin-bottom : 10px;">
+                                <div class="records_card">
+                                    <div class="meeting_icon">
+                                        <img src="./images/meeting_icon.png" />
+                                    </div>
+                                    <div class="card_details">
+                                        <span class="span1">Home Room</span>
+                                        <span class="span2">July 15, 2022 | 11:00am</span>
+                                        <span class="span3">View Attendees</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" style="padding: 0px 5px; margin-bottom : 10px;">
+                                <div class="records_card">
+                                    <div class="meeting_icon">
+                                        <img src="./images/meeting_icon.png" />
+                                    </div>
+                                    <div class="card_details">
+                                        <span class="span1">Office Room</span>
+                                        <span class="span2">Jul 28, 2022 | 1:00pm</span>
+                                        <span class="span3">View Attendees</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" style="padding: 0px 5px; margin-bottom : 10px;">
+                                <div class="records_card">
+                                    <div class="meeting_icon">
+                                        <img src="./images/meeting_icon.png" />
+                                    </div>
+                                    <div class="card_details">
+                                        <span class="span1">Fashion Room</span>
+                                        <span class="span2">July 12, 2022 | 3:00pm</span>
+                                        <span class="span3">View Attendees</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+ 	</div>
+</body>
+</html>
